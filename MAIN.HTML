@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assects/stylestyle.css">
+ 
+    <style>
+        section{
+            padding:60px 0px;
+        }
+    </style>
+</head>
+<body>
+    <!--alert
+    <div class="container-fluid">
+    <div class="alert alert-danger">
+        we have disable the register function
+        <a href="#" class="alert-link">Learnmore</a>
+    </DIV>
+</div>
+--->
+  
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:azure;">
+    <div class="container-fluid">
+          <!--header-->
+    <a href="#intro" class="navbar-brand" >
+   <span class="display-6 fw-bold text-secondary">
+        The Book of Bible
+    </span>
+    </a>
+    
+<!--toggle button for mobile nav-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+   <span class="navbar-toggler-icon btn-sm"></span>
+    </button>
+    <!--Navbar Links-->
+    <div class="collapse navbar-collapse justify-content-end align-center " id="main-nav">
+        <ul class="navbar-nav">
+		<li class="nav-item">
+                <a class="nav-link" href="#intro"> 
+				    <span class=" fw-bold "> Home </span> 
+				</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#topics">
+				    <span class=" fw-bold "> About the book </span> 
+				</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#reviews">
+				     <span class=" fw-bold "> Reviews </span> 
+				</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">
+				     <span class=" fw-bold "> Contact Us </span> 
+				</a>
+            </li>
+            <li class="nav-item d-md-none">
+                <a class="nav-link" href="#pricing">
+				     <span class=" fw-bold "> pricing </span> 
+				</a>
+            </li>
+            <li class="nav-item ms-2 d-none d-md-inline">
+                 <a class="btn btn-secondary" href="#pricing">
+				     <span class=" fw-bold "> Buy Now </span> 
+				 </a>   
+            </li>
+    </ul>
+    </div>
+    </div>
+    </nav>
+    <!--main and intro-->
+<section id="intro" style="background-color:azure;">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-5 text-center text-md-start">
+<h1>
+    <div class="display-4">The Holy Bible</div>
+    <div class="display-6 text-muted">Your Faith In God</div>
+</h1>
+<p class="lead my-4 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<a href="#pricing" class="btn btn-secondary btn-lg">Buy Now</a>
+<!--offcanvas
+<a href="#sidebar" class="d-block mt-3 " data-bs-toggle="offcanvas" role="button" aria-controls="sidebar">explore more about bible </a>
+           off canvas end-->
+           
+</div>
+            <div class="col-md-5 text-center d-none d-md-block">
+                <span class="tt" data-bs-placement="bottom" title="The Holy Bible">
+            <img class="img-fluid"src="assects/2.jpeg" alt="image" >
+        </span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--pricing plan-->
+
+<section id="pricing" class="bg-light">
+    <div class="container-fluid">
+        <div class="text-center">
+            <h2>Pricing Plans</h2>
+            <p class="lead text-muted">Choose a pricing plan to suit you.</p>
+        </div>
+<div class="row my-5 align-items-center justify-content-center g-0">
+<div class="cols-8 col-md-4 col-lg-3">
+<div class="card border-0">
+<div class="card-body text-center py-4">
+<h4 class="card-title">Start Edition</h4>
+<p class="lead card-subtitle">Ebook Download Only</p>
+<p class="display-5 my-4 text-primary fw-bold">$10.00</p>
+<p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+<a href="#" class="btn btn-outline-primary btn-xxl mt-3">Buy Now</a>
+ </div>
+ </div>
+ </div>
+
+ <div class="cols-8 col-lg-3">
+    <div class="card border-primary border-3">
+        <div class="card header text-center text-primary">Most Popular</div>
+    <div class="card-body text-center py-5">
+    <h4 class="card-title">Complete Edition</h4>
+    <p class="lead card-subtitle">Ebook Download & All Updates</p>
+    <p class="display-4 my-4 text-primary fw-bold">$20.00</p>
+    <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="btn btn-outline-primary btn-xxl mt-3">Buy Now</a>
+     </div>
+     </div>
+     </div>
+
+     <div class="cols-8 col-md-4 col-lg-3">
+        <div class="card border-0">
+        <div class="card-body text-center py-4">
+        <h4 class="card-title">Ultimate Edition</h4>
+        <p class="lead card-subtitle">Download,Updates,Extra Plans</p>
+        <p class="display-5 my-4 text-primary fw-bold">$25.00</p>
+        <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" class="btn btn-outline-primary btn-xxl mt-3">Buy Now</a>
+         </div>
+         </div>
+         </div>
+</div>
+</div>
+</section>
+
+<!--Topics-->
+
+<section id="topics" style="background-color:azure;">
+<div class="container-fluid">
+<div class="text-center">
+<h2>Inside The Book</h2>
+<p class="lead text-muted">A Quick Glance At The Topics You will Learn.</p>
+</div>
+<div class="row my-5 g-5 justify-content-around align-items-center">
+<div class="col-6 col-lg-4">
+    <img src="assects/1.jpg" alt="" class="img-fluid">
+</div>
+<div class="col-7 col-lg-6">
+
+
+<!--Accordion-->
+<div class="accordion" id="chapters" >
+<div class="accordion-item">
+<h2 class="accordion-header" id="heading-1">
+<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" 
+aria-expanded="true" aria-controls="chapter-1">
+Chapter - 1 - Basic knowledge of Holy Bible
+</button>
+</h2>
+<div id="chapter-1" class="accordion-collapse collapse show" aria-labeledby="heading-1" 
+data-bs-parent="#chapters">
+<div class="accordion-body">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Perferendis maxime assumenda fugiat nihil, est in quis vero, minima dolor tempora quas, 
+tempore accusantium doloribus facilis amet at laudantium beatae maiores et optio. Repudiandae, 
+hic dolorum. Optio nostrum accusantium omnis exercitationem corrupti voluptatibus nobis, 
+odio velit quidem consequatur molestias a eligendi!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Tenetur autem dolore dicta voluptate debitis, velit explicabo voluptatum quam excepturi quibusdam 
+tempore cumque tempora molestias eveniet impedit deleniti dolor, alias perferendis magnam eius 
+nulla non sunt odio soluta. Eligendi expedita perspiciatis praesentium explicabo corporis nemo 
+voluptas! Saepe voluptates amet numquam natus!</p>
+</div>
+</div>
+</div>
+
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-2">
+    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2" 
+    aria-expanded="flase" aria-controls="chapter-2">
+    Chapter - 2 - Old Testament
+    </button>
+    </h2>
+    <div id="chapter-2" class="accordion-collapse collapse" aria-labeledby="heading-2" 
+    data-bs-parent="#chapters">
+    <div class="accordion-body">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Perferendis maxime assumenda fugiat nihil, est in quis vero, minima dolor tempora quas, 
+    tempore accusantium doloribus facilis amet at laudantium beatae maiores et optio. Repudiandae, 
+    hic dolorum. Optio nostrum accusantium omnis exercitationem corrupti voluptatibus nobis, 
+    odio velit quidem consequatur molestias a eligendi!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Tenetur autem dolore dicta voluptate debitis, velit explicabo voluptatum quam excepturi quibusdam 
+    tempore cumque tempora molestias eveniet impedit deleniti dolor, alias perferendis magnam eius 
+    nulla non sunt odio soluta. Eligendi expedita perspiciatis praesentium explicabo corporis nemo 
+    voluptas! Saepe voluptates amet numquam natus!</p>
+    </div>
+    </div>
+    </div>
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="heading-3">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#chapter-3" 
+        aria-expanded="flase" aria-controls="chapter-3">
+        Chapter - 3 - The History Of Jarusalem Kingdom
+        </button>
+        </h2>
+        <div id="chapter-3" class="accordion-collapse collapse" aria-labeledby="heading-3" 
+        data-bs-parent="#chapters">
+        <div class="accordion-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Perferendis maxime assumenda fugiat nihil, est in quis vero, minima dolor tempora quas, 
+        tempore accusantium doloribus facilis amet at laudantium beatae maiores et optio. Repudiandae, 
+        hic dolorum. Optio nostrum accusantium omnis exercitationem corrupti voluptatibus nobis, 
+        odio velit quidem consequatur molestias a eligendi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tenetur autem dolore dicta voluptate debitis, velit explicabo voluptatum quam excepturi quibusdam 
+        tempore cumque tempora molestias eveniet impedit deleniti dolor, alias perferendis magnam eius 
+        nulla non sunt odio soluta. Eligendi expedita perspiciatis praesentium explicabo corporis nemo 
+        voluptas! Saepe voluptates amet numquam natus!</p>
+        </div>
+        </div>
+        </div>
+
+
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="heading-4">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#chapter-4" 
+        aria-expanded="flase" aria-controls="chapter-4">
+        Chapter - 4 - New Testament
+        </button>
+        </h2>
+        <div id="chapter-4" class="accordion-collapse collapse" aria-labeledby="heading-4" 
+        data-bs-parent="#chapters">
+        <div class="accordion-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Perferendis maxime assumenda fugiat nihil, est in quis vero, minima dolor tempora quas, 
+        tempore accusantium doloribus facilis amet at laudantium beatae maiores et optio. Repudiandae, 
+        hic dolorum. Optio nostrum accusantium omnis exercitationem corrupti voluptatibus nobis, 
+        odio velit quidem consequatur molestias a eligendi!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tenetur autem dolore dicta voluptate debitis, velit explicabo voluptatum quam excepturi quibusdam 
+        tempore cumque tempora molestias eveniet impedit deleniti dolor, alias perferendis magnam eius 
+        nulla non sunt odio soluta. Eligendi expedita perspiciatis praesentium explicabo corporis nemo 
+        voluptas! Saepe voluptates amet numquam natus!</p>
+        </div>
+        </div>
+        </div>
+
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="heading-5">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#chapter-5" 
+            aria-expanded="flase" aria-controls="chapter-5">
+            Chapter - 5 - History Of Jesus Christ 
+            </button>
+            </h2>
+            <div id="chapter-5" class="accordion-collapse collapse" aria-labeledby="heading-5" 
+            data-bs-parent="#chapters">
+            <div class="accordion-body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Perferendis maxime assumenda fugiat nihil, est in quis vero, minima dolor tempora quas, 
+            tempore accusantium doloribus facilis amet at laudantium beatae maiores et optio. Repudiandae, 
+            hic dolorum. Optio nostrum accusantium omnis exercitationem corrupti voluptatibus nobis, 
+            odio velit quidem consequatur molestias a eligendi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Tenetur autem dolore dicta voluptate debitis, velit explicabo voluptatum quam excepturi quibusdam 
+            tempore cumque tempora molestias eveniet impedit deleniti dolor, alias perferendis magnam eius 
+            nulla non sunt odio soluta. Eligendi expedita perspiciatis praesentium explicabo corporis nemo 
+            voluptas! Saepe voluptates amet numquam natus!</p>
+            </div>
+            </div>
+        </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!--list group-->
+
+<section id="reviews" class="bg-light">
+<div class="container-fluid">
+<div class="text-center">
+<h2>Reviews</h2>
+<p class="lead">What Peoples have said about holy Bible</p>
+</div>
+<div class="row justify-content-center">
+<div class="col-lg-8">
+<div class="list-group">
+<div class="list-group-item py-3">
+<h5 class="mb-1"> A Must Buy For Every Aspiring Web Devlopment</h5>
+<p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Quae non similique exercitationem, nobis veniam autem consectetur ut. 
+Iure libero ipsam maxime distinctio debitis tenetur corrupti corporis veniam harum iusto quos, 
+nesciunt facere assumenda! Impedit incidunt vitae et minus reiciendis sunt alias rerum nisi nobis 
+exercitationem fugit a esse dolore dolorum facere quis, 
+nesciunt aperiam iste earum distinctio illum voluptatum! Alias.</p>
+<small>Review By Abi</small>
+</div>
+<div class="list-group">
+    <div class="list-group-item py-3">
+    <h5 class="mb-1"> A Must Buy For Every Aspiring Web Devlopment</h5>
+    <p class="mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Quae non similique exercitationem, nobis veniam autem consectetur ut. 
+    Iure libero ipsam maxime distinctio debitis tenetur corrupti corporis veniam harum iusto quos, 
+    nesciunt facere assumenda! Impedit incidunt vitae et minus reiciendis sunt alias rerum nisi nobis 
+    exercitationem fugit a esse dolore dolorum facere quis, 
+    nesciunt aperiam iste earum distinctio illum voluptatum! Alias.</p>
+    <small>Review By Sapthi</small>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<!--forms-->
+<section id="contact" style="background-color:azure;">
+<div class="container-fluid">
+<div class="text-center">
+    <h2>Contact Us</h2>
+    <p class="lead">Question To Ask? Fill Out The Form Contact Me Directly </p>
+</div>
+
+
+<div class="row justify-content-center my-5">
+
+    <div class="col-lg-6">
+        <form >
+            <label for="name" class="form-label">Name :</label>
+            <div class="mb-4 input-group">
+            <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg>
+            </span>
+            <input type="text" class="form-control" id="name" placeholder="e.g.Moona">
+            <!--tooltips-->
+            <span class="input-group-text">
+            <span class="tt" data-bs-placement="bottom" title="Enter your name we will reply to.">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle text-muted" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                    <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                  </svg> 
+                </span>  
+            </span>
+        </div>
+
+            <label for="full name" class="form-label">Full Name:</label>
+            <div class="mb-4 input-group">
+            <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                  </svg>
+            </span>
+            <input type="text " class="form-control" id="full name" placeholder="e.g.Jerson Moona">
+             <!--tooltips-->
+             <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter your name we will reply to.">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle text-muted" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                      </svg> 
+                    </span>  
+                </span>
+            </div>
+            <label for="phone" class="form-label">Phone Number:</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                        <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                      </svg>
+                </span>
+            <input type="tell" class="form-control" id="phone" placeholder="e.g.moonaabi49@gmail.com">
+             <!--tooltips-->
+             <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter your phone number we will text to.">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle text-muted" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                      </svg> 
+                    </span>  
+                </span>
+            </div>
+            <label for="email" class="form-label">Email Address:</label>
+            <div class="mb-4 input-group">
+                <span class="input-group-text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+              </svg>
+                </span>
+            <input type="email" class="form-control" id="email" placeholder="e.g.moona@gmail.com">
+             <!--tooltips-->
+             <span class="input-group-text">
+                <span class="tt" data-bs-placement="bottom" title="Enter your email address we will email to.">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle text-muted" viewBox="0 0 16 16">
+                        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                        <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                      </svg> 
+                    </span>  
+                </span>
+            </div>
+            <label for="subject" class="form-label">What is the question about</label>
+            <select class="form-select" id="subject">
+            <option value="pricing" select>Pricing Query</option>   
+            <option value="Other" select>Other Query</option>   
+            <option value="pricing" select>Pricing Query</option>   
+            </select>
+
+            <div class="form-floating mb-4 mt-5">
+            <textarea id="Query" class="form-control" style="height:140px"></textarea>
+            <label for="Query" class="form-label"> Your Query</label>
+        </div>
+
+        <div class="mb-4 text-center">
+            <button type="submit" class="btn btn-secondary">submit</button>
+        </div>
+        </form>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+<!--offcanvas
+<div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar" aria-labelledby="offcanvasLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-Label">more about bible</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+  
+  <!--dropdown list
+  
+  <div class="dropdown">
+    <div class="text-center"></div>
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="book-dropdown" data-bs-toggle="dropdown" >
+      choose ur favourite 
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="book-dropdown">
+      <li><a class="dropdown-item" href="#">Old Testament</a></li>
+      <li><a class="dropdown-item" href="#">New testament </a></li>
+    </ul>
+  </div>
+</div>
+</div>---->
+
+  <footer>
+<section class="">
+   <div class="container-fluid text-dark text-center">
+    <small class="text-dark-50"> &copy; copyright by B.Sapthika.All rights reserved</small>
+   </div>
+   </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+</body>
+</html>
